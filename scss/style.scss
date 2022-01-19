@@ -63,6 +63,9 @@
     .menu {
         &__link-open {
             padding-right: 23px;
+            &:last-child {
+                color: #254478;
+            }
             &::before,
             &::after {
                 content: '';

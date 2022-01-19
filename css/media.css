@@ -137,6 +137,7 @@
     text-align: center;
   }
   .menu__list li {
+    margin-right: 0px;
     margin-bottom: 30px;
   }
   .menu__list > li:active .menu__sub-list,
