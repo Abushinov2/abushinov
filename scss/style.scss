@@ -294,6 +294,23 @@
             }
         }
     }
+    
+    .all-info {
+        &__title {
+            text-align: center;
+            margin: 100px 0;
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+        &__list {
+            font-size: 24px;
+            margin: 0 20px;
+        }
+        &__point {
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+    }
     /*----------------------------- Подвал -----------------------------*/
     
     .footer {
@@ -312,15 +329,32 @@
     
     .result-first {
         margin-top: 200px;
+        & tbody {
+            max-width: 800px;
+            width: 100%;
+        }
+        & table {
+            border-spacing: 0 0;
+        }
+        &__sell {
+            padding: 30px;
+            font-size: 20px;
+            border: 1px solid #000;
+            white-space: normal;
+            & a:hover {
+                text-decoration: underline;
+            }
+        }
         &__container {
             padding: 10px;
         }
         &__title {
             text-align: center;
             color: #000;
-            font-size: 48px;
-            text-transform: uppercase;
+            font-size: 44px;
             letter-spacing: 2px;
+            max-width: 800px;
+            margin: 0 auto;
         }
         &__img-container {
             display: flex;
