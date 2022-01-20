@@ -321,10 +321,37 @@
   }
 }
 
+@media screen and (max-width: 980px) {
+  .result-first__sell {
+    padding: 10px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .result-first__sell {
+    padding: 5px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .result-first__sell {
+    padding: 5px;
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 590px) {
   .menu__link {
     display: block;
     font-size: 30px;
+  }
+  .all-info__title {
+    font-size: 30px;
+  }
+  .all-info__list {
+    font-size: 20px;
   }
 }
 
@@ -353,6 +380,17 @@
   .second-section {
     margin-top: 150px;
   }
+  .result-first__sell {
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .result-first__sell {
+    padding: 2px;
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 424px) {
@@ -372,6 +410,16 @@
   }
   .menu__link {
     font-size: 26px;
+  }
+  .result-first__title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .result-first__sell {
+    padding: 2px;
+    font-size: 10px;
   }
 }
 
@@ -394,6 +442,13 @@
     font-size: 22px;
   }
   .result-first__title {
-    font-size: 44px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .result-first__sell {
+    padding: 2px;
+    font-size: 9px;
   }
 }
